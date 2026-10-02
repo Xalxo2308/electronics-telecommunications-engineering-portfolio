@@ -2,26 +2,61 @@
 
 ## Bachelor of Technology Capstone Project
 
-### Electronics and Communication Engineering
+**Discipline:** Electronics and Communication Engineering  
+**Project:** Touch Screen Controlled Wheelchair  
+**Project Type:** Undergraduate Engineering Capstone  
+**Period:** 2010–2014
 
-**Project:** Touch Screen Controlled Wheelchair
+## Overview
 
-**Institution:** Sam Higginbottom Institute of Agriculture, Technology and Sciences (SHIATS), Allahabad, India
+A microcontroller-based wheelchair control system using a resistive touchscreen as the user input interface.
 
-**Batch:** 2010–2014
+The project integrated embedded control, electronic hardware, motor control, LCD interfacing and PCB design.
 
-**Project type:** Undergraduate engineering capstone project
+## Main Components
 
----
+- ATmega168 microcontroller
+- Resistive touchscreen
+- L293D motor-driver IC
+- Two 12 V DC motors
+- 16×2 LCD
+- 16 MHz crystal oscillator
+- 7805 voltage regulator
+- Resistors, capacitors and diodes
 
-## 1. Project Overview
+## Technical Work
 
-This project involved the design and development of a microcontroller-based wheelchair control system using a resistive touchscreen interface.
+- ATmega168 microcontroller configuration
+- Embedded C programming
+- GPIO and digital I/O
+- ADC-based touchscreen interfacing
+- Touch coordinate detection
+- L293D motor-driver interfacing
+- DC motor direction control
+- LCD interfacing
+- Ultrasonic sensor interfacing
+- Circuit and schematic design
+- PCB layout using Express PCB
+- PCB fabrication
 
-The objective was to provide an alternative method of controlling wheelchair movement through a touchscreen rather than conventional manual wheel operation.
+## Motor Control
 
-The system combines embedded control, electronic hardware, motor control, touchscreen interfacing and PCB design.
+The documented program implements:
 
+- Forward movement
+- Reverse movement
+- Individual motor control
+- Direction changes
+- Stop
+- Parking
+- Unparking
+
+Example:
+
+```c
+P0 = 0x05;   // Move forward
+P0 = 0x0A;   // Move backward
+P0 = 0x00;   // Stop
 ---
 
 ## 2. System Architecture
