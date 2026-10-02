@@ -1,5 +1,5 @@
 # Touch Screen Controlled Wheelchair
-
+wheelchair-system-overview.png
 ## Bachelor of Technology Capstone Project
 
 **Discipline:** Electronics and Communication Engineering  
